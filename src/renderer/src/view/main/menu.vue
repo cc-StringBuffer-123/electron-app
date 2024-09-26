@@ -7,8 +7,7 @@
         :class="{ active: activeIndex === menuItem.path, enabled: menuItem.enabled }"
         @click="toPage(menuItem)"
       >
-        <div v-if="menuItem.id === MenuItemType.Macdonald" class="menu-item"
-             @click="toPage(menuItem)">
+        <div v-if="menuItem.id === MenuItemType.Macdonald" class="menu-item">
           {{ menuItem.label }}
         </div>
         <div v-else-if="menuItem.id === MenuItemType.UncleRay" class="menu-item">

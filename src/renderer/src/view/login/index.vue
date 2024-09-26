@@ -10,7 +10,7 @@
                     </div>-->
         </div>
         <div class="input-container">
-          <input placeholder="TeamDomain" v-model="teamDomain" />
+          <input placeholder="TeamDomain" v-model="teamDomain" @keydown.enter="loginTeam" />
           <span class="ztn-page-t400">.stronggate.com</span>
         </div>
       </div>

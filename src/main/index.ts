@@ -96,7 +96,6 @@ function createTray() {
       console.log('Hiding tray window')
       trayWindow.hide()
     } else {
-
       console.log('Showing tray window')
       trayWindow.show()
     }
