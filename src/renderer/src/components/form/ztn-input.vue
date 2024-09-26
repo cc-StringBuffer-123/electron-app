@@ -1,10 +1,22 @@
 <template>
   <el-skeleton :loading="loading" :rows="0" class="ztn-skeleton" animated>
-    <el-input :type="type" :placeholder="placeholder" ref="input" :disabled="disabled"
-              v-bind="$attrs" class="input-text" :class="{'disabled': disabled}"
-              :show-word-limit="showWord" :maxlength="maxLength">
+    <el-input
+      :type="type"
+      :placeholder="placeholder"
+      ref="input"
+      :disabled="disabled"
+      v-bind="$attrs"
+      :show-word-limit="showWord"
+      :maxlength="maxLength"
+      class="input-text"
+      :class="{'disabled': disabled}"
+    >
     </el-input>
-    <div class="ztn-page-t200-condense" :class="{'mt-2': desc != null}">{{ desc }}</div>
+    <div class="ztn-page-t200-condense" :class="{'mt-2':desc!=null}">
+      <slot name="desc">
+        {{ desc }}
+      </slot>
+    </div>
   </el-skeleton>
 </template>
 
@@ -29,14 +41,11 @@ defineProps({
 })
 </script>
 <style>
-.img {
-  width: 16px;
-  height: 16px;
-}
-
 .input-text {
   height: 31px !important;
-  width: 100%
+  width: 100%;
+  max-width: 360px;
+  margin-right: 10px;
 }
 
 .disabled .el-input__wrapper {

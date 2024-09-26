@@ -7,6 +7,9 @@
       </div>
     </template>
   </el-checkbox>
+  <slot name="desc">
+    {{ desc }}
+  </slot>
 </template>
 
 <script setup lang="ts">
@@ -16,8 +19,10 @@ const props = defineProps({
   trueValue: Number || String,
   falseValue: Number || String,
   label: String,
-  src: String
+  src: String,
+  desc: String
 })
+
 
 console.log(props.src)
 </script>

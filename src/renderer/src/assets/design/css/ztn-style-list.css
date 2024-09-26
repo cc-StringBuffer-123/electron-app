@@ -328,3 +328,25 @@
 img {
   user-select: none !important;
 }
+
+.ztn-skeleton .el-skeleton__item {
+  width: 100% !important;
+  height: 30px !important;
+  max-height: 100% !important;
+}
+
+.ztn-skeleton-loading {
+  animation: skeletonAnimation 1.5s ease-in-out infinite !important;
+}
+
+@keyframes skeletonAnimation {
+  0% {
+    background-color: var(--base-bg-secondary-7);
+  }
+  50% {
+    background-color: var(--base-bg-secondary-8);
+  }
+  100% {
+    background-color: var(--base-bg-secondary-9);
+  }
+}

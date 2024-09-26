@@ -22,7 +22,7 @@
               <img src="../../assets/img/svg/bind.svg" alt="" />
             </td>
             <td>
-              <ztn-checkbox :true-value="1" :false-value="0" class="mac-checkbox" />
+              <input type="checkbox" class="mac-checkbox" />
             </td>
             <td>
               <img src="../../assets/img/svg/strong-gate-checked.svg" alt="" />
@@ -40,7 +40,7 @@
               <img src="../../assets/img/svg/bind.svg" alt="" style="visibility: hidden" />
             </td>
             <td>
-              <ztn-checkbox :true-value="1" :false-value="0" class="mac-checkbox" />
+              <input type="checkbox" class="mac-checkbox" />
             </td>
             <td>
               <img src="../../assets/img/svg/strong-gate.svg" alt="" />
@@ -58,10 +58,8 @@
 
 <script>
 import { macdonaldItems, menuItems, MenuItemType } from '../../menu/menu'
-import ZtnCheckbox from '../../components/form/ztn-checkbox.vue'
 
 export default {
-  components: { ZtnCheckbox },
   emits: ['isMacdonald'],
   data() {
     return {
@@ -160,6 +158,6 @@ ul {
   align-self: center;
   align-items: center;
   justify-content: center;
-  padding-top: 10px;
+  margin-right: 5px;
 }
 </style>

@@ -26,8 +26,8 @@ export const menuItems = [
   {
     id: 1501,
     label: 'Request to add user',
-    path: '/addUser',
-    enabled: true
+    path: '/add-user',
+    enabled: false
   },
   {
     id: 1601,
