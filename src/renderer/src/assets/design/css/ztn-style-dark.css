@@ -1,0 +1,155 @@
+/*
+ * ===========================================================================
+ * [StrongGate Limited] [http://www.stronggate.com]
+ * Copyright (c) 2022. All rights Reserved.
+ * Unauthorized access, use, dissemination, distribution, reproduction of this
+ * file, or a portion of, in any form is prohibited and unlawful. If you receive
+ * this file, and you are not an authorized company employee, or you believe you
+ * have received this file in error, please notify the sender (or originator)
+ * and promptly delete this file.
+ *
+ * Project:
+ * File: ztn-style-dark.css
+ * Created by: Kevin
+ * Create Date: 2022-11-11 17:50
+ * Version Number: 1.0
+ * Version Description:
+ *
+ * =============================================================================
+ */
+
+:root .dark {
+  --menu-item-indicator-color: #79829c;
+  --menu-item-expanded-only-color: #a6b0cf;
+  --menu-item-icon-active: brightness(0) invert(1);
+
+  /* ------------------------- Primary Color ---------------------*/
+  --base-primary-h: #4662e8;
+  --base-primary-1: #556ee6;
+  --base-primary-2: #778df9;
+  --base-primary-3: #98a8f7;
+  --base-bg-primary-7: #34406b;
+  --base-bg-primary-8: #48578e;
+  --base-bg-primary-9: #6277c1;
+  /* ------------------------- Secondary Color ---------------------*/
+  --base-secondary-h: #6d7395;
+  --base-secondary-1: #74788d;
+  --base-secondary-2: #8e92aa;
+  --base-secondary-3: #adb2d0;
+  --base-bg-secondary-7: #50576a;
+  --base-bg-secondary-8: #727b92;
+  --base-bg-secondary-9: #8e9aba;
+  /* ------------------------- Success Color ---------------------*/
+  --base-success-h: #0ebd7d;
+  --base-success-1: #34c38f;
+  --base-success-2: #43e3a9;
+  --base-success-3: #47f9b9;
+  --base-bg-success-7: #2c5555;
+  --base-bg-success-8: #427a7a;
+  --base-bg-success-9: #5ba6a6;
+  /* ------------------------- Info Color ---------------------*/
+  --base-info-h: #3691e3;
+  --base-info-1: #50a5f1;
+  --base-info-2: #65b4fa;
+  --base-info-3: #87c4fa;
+  --base-bg-info-7: #334d6d;
+  --base-bg-info-8: #486992;
+  --base-bg-info-9: #648fc4;
+  /* ------------------------- Warning Color ---------------------*/
+  --base-warning-h: #d89728;
+  --base-warning-1: #f1b44c;
+  --base-warning-2: #f7c164;
+  --base-warning-3: #facf85;
+  --base-bg-warning-7: #5b5144;
+  --base-bg-warning-8: #7e715f;
+  --base-bg-warning-9: #9a8b77;
+  /* ------------------------- Danger Color ---------------------*/
+  --base-danger-h: #e74545;
+  --base-danger-1: #f46a6a;
+  --base-danger-2: #fb8686;
+  --base-danger-3: #ff9999;
+  --base-bg-danger-7: #5c3f4c;
+  --base-bg-danger-8: #845e6f;
+  --base-bg-danger-9: #ac7b91;
+  /* ------------------------- Dark Color ---------------------*/
+  --base-dark-h: #222a33;
+  --base-dark-1: #bebfc1;
+  --base-dark-2: #ebebeb;
+  --base-dark-3: #fdfdfe;
+  --base-bg-dark-7: #5b616f;
+  --base-bg-dark-8: #808799;
+  --base-bg-dark-9: #9ea7bb;
+
+  /* --------------------------------------------------------------- */
+  /*                         SideBar Color                           */
+  /* --------------------------------------------------------------- */
+  --sidebar-primary: #ffffff;
+  --sidebar-secondary: #6a7187;
+  --sidebar-item-open: #79829c;
+  --sidebar-main-close: #a6b0cf;
+  --sidebar-background: #2a3042;
+
+  /* --------------------------------------------------------------- */
+  /*                           Top Color                             */
+  /* --------------------------------------------------------------- */
+  --top-logo-bg: #2a3042;
+  --top-logo-body: #f0f0fa;
+  --top-secondary: #eff2f7;
+
+  /* --------------------------------------------------------------- */
+  /*                           Classifier Color                      */
+  /* --------------------------------------------------------------- */
+  --classifier-1: #e4d3d3;
+  --classifier-2: #ebe0d6;
+  --classifier-3: #eaead5;
+  --classifier-4: #d8edd8;
+  --classifier-5: #daedee;
+  --classifier-6: #dbdded;
+  --classifier-7: #5b616f;
+
+  /* --------------------------------------------------------------- */
+  /*                           Body Color                            */
+  /* --------------------------------------------------------------- */
+  --body-color: #222736; /*temp*/
+
+  --body-color-h: none;
+  --body-color-1: #f6f6f6;
+
+  --body-aux-h: none;
+  --body-aux-1: #797c8f;
+  --body-aux-2: #787b84;
+  --body-aux-3: #5e6168;
+  --body-aux-4: #4d4e54;
+
+  --body-inv-1: #ffffff;
+
+  /* --------------------------------------------------------------- */
+  /*                           Bg Color                              */
+  /* --------------------------------------------------------------- */
+  --bg-background: #2a3042;
+  --bg-body: #222736;
+  --bg-body-1: none;
+  --bg-body-2: none;
+
+  /* --------------------------------------------------------------- */
+  /*                           Line Color                            */
+  /* --------------------------------------------------------------- */
+  --line-outer-border-1: #797c8f;
+  --line-outer-border-2: #707485;
+
+  --line-inner-line-1: #787b84;
+  --line-inner-line-2: #666971;
+
+  --line-box-border-1: #787b84;
+  --line-box-border-2: #5e6168;
+  --line-box-border-3: #4d4e54;
+
+  --line-ruleset-line-1: #34406b;
+  --line-ruleset-line-2: #98a8f7;
+
+  --line-box-bg-1: none;
+  --line-box-bg-2: none;
+
+  --line-box-border-with-effect-1: none;
+  --line-box-border-with-effect-2: none;
+}

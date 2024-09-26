@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Electron-Tray-Window Example</title>
+  </head>
+  <style>
+    body {
+      overflow: hidden;
+      width: 260px;
+    }
+
+    #container {
+      background-color: #ffffff;
+      height: 100%;
+      border-radius: 5px;
+      user-select: none;
+    }
+
+    #title {
+      background-color: #f2f2f2;
+      height: 32px;
+      font-family: Poppins, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      padding: 8px 0 0 8px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    .menu-text {
+      font-family: Inter, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      height: 24px;
+      padding: 8px 0 0 16px;
+      border-radius: 5px;
+    }
+
+    .menu-text:hover {
+      background-color: #cccccc;
+      cursor: pointer;
+    }
+
+    #ray {
+      padding: 8px 0 0 24px;
+    }
+  </style>
+  <script type="text/javascript">
+    const { ipcRenderer } = require('electron')
+  </script>
+  <body>
+    <div id="container">
+      <div id="title">Welcome StrongGate@gmal</div>
+      <hr />
+      <div class="menu-text" id="ray">
+        <input type="checkbox" style="width: 16px; height: 16px" />
+        Logged-Out
+      </div>
+      <div class="menu-text" id="ray">Connected</div>
+      <hr />
+      <div class="menu-text">Login to Join Team</div>
+      <div class="menu-text">Connect</div>
+      <div class="menu-text">Team Device Status</div>
+      <div class="menu-text">Open Team Dashboard</div>
+      <div class="menu-text">Request to Add User</div>
+      <div class="menu-text">Local Team Preferences</div>
+      <div class="menu-text">Remove cache of this Team</div>
+    </div>
+  </body>
+</html>

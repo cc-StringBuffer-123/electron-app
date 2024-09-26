@@ -1,0 +1,376 @@
+/*
+ * ===========================================================================
+ * [StrongGate Limited] [http://www.stronggate.com]
+ * Copyright (c) 2022. All rights Reserved.
+ * Unauthorized access, use, dissemination, distribution, reproduction of this
+ * file, or a portion of, in any form is prohibited and unlawful. If you receive
+ * this file, and you are not an authorized company employee, or you believe you
+ * have received this file in error, please notify the sender (or originator)
+ * and promptly delete this file.
+ *
+ * Project:
+ * File: ztn-style.css
+ * Created by: Kevin
+ * Create Date: 2022-11-11 18:43
+ * Version Number: 1.0
+ * Version Description:
+ *
+ * =============================================================================
+ */
+
+:root {
+  /* --------------------------------Heading-------------------------------- */
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H3600 */
+  --h3600-font-family: Poppins;
+  --h3600-font-size: 36px;
+  --h3600-font-style: normal;
+  --h3600-font-weight: 500;
+  --h3600-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H2400 */
+  --h2400-font-family: Poppins;
+  --h2400-font-size: 24px;
+  --h2400-font-style: normal;
+  --h2400-font-weight: 500;
+  --h2400-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H800 */
+  --h800-font-family: Poppins;
+  --h800-font-size: 18px;
+  --h800-font-style: normal;
+  --h800-font-weight: 500;
+  --h800-line-height: normal;
+
+  /* color: var(--Light-Body-Body-aux1, #757886);*/
+  /* Light/Heading/H800 Strong */
+  --h800-strong-font-family: Poppins;
+  --h800-strong-font-size: 18px;
+  --h800-strong-font-style: normal;
+  --h800-strong-font-weight: 600;
+  --h800-strong-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H600 */
+  --h600-font-family: Poppins;
+  --h600-font-size: 16px;
+  --h600-font-style: normal;
+  --h600-font-weight: 500;
+  --h600-line-height: normal;
+
+  /* color: var(--Light-Body-Body-aux1, #757886);*/
+  /* Light/Heading/H600 Strong */
+  --h600-strong-font-family: Poppins;
+  --h600-strong-font-size: 16px;
+  --h600-strong-font-style: normal;
+  --h600-strong-font-weight: 600;
+  --h600-strong-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H500 */
+  --h500-font-family: Poppins;
+  --h500-font-size: 15px;
+  --h500-font-style: normal;
+  --h500-font-weight: 500;
+  --h500-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H500 strong */
+  --h500-strong-font-family: Poppins;
+  --h500-strong-font-size: 15px;
+  --h500-strong-font-style: normal;
+  --h500-strong-font-weight: 600;
+  --h500-strong-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H500 Text */
+  --h500-text-font-family: Poppins;
+  --h500-text-font-size: 15px;
+  --h500-text-font-style: normal;
+  --h500-text-font-weight: 500;
+  --h500-text-line-height: normal;
+
+  /* color: var(--Light-Body-Body-aux1, #757886);*/
+  /* Light/Heading/H400 */
+  --h400-font-family: Poppins;
+  --h400-font-size: 14px;
+  --h400-font-style: normal;
+  --h400-font-weight: 500;
+  --h400-line-height: normal;
+
+  /* color: var(--Light-Body-Body-aux1, #757886);*/
+  /* Light/Heading/H400 Strong */
+  --h400-strong-font-family: Poppins;
+  --h400-strong-font-size: 14px;
+  --h400-strong-font-style: normal;
+  --h400-strong-font-weight: 600;
+  --h400-strong-line-height: normal;
+
+  /* color: var(--Light-Body-Body-aux1, #757886);*/
+  /* Light/Heading/H400 Condense */
+  --h400-condense-font-family: Roboto;
+  --h400-condense-font-size: 14px;
+  --h400-condense-font-style: normal;
+  --h400-condense-font-weight: 600;
+  --h400-condense-line-height: normal;
+
+  /* color: var(--Light-Body-Body-aux1, #757886);*/
+  /* Light/Heading/H400 Text */
+  --h400-text-font-family: Poppins;
+  --h400-text-font-size: 14px;
+  --h400-text-font-style: normal;
+  --h400-text-font-weight: 400;
+  --h400-text-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* font-feature-settings: 'clig' off, 'liga' off;*/
+  /* Light/Heading/H300 */
+  --h300-font-family: Poppins;
+  --h300-font-size: 13px;
+  --h300-font-style: normal;
+  --h300-font-weight: 500;
+  --h300-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H300 Strong */
+  --h300-strong-font-family: Poppins;
+  --h300-strong-font-size: 13px;
+  --h300-strong-font-style: normal;
+  --h300-strong-font-weight: 600;
+  --h300-strong-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H300 Strong2 */
+  --h300-strong2-font-family: Poppins;
+  --h300-strong2-font-size: 13px;
+  --h300-strong2-font-style: normal;
+  --h300-strong2-font-weight: 700;
+  --h300-strong2-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* font-feature-settings: 'clig' off, 'liga' off;*/
+  /* Light/Heading/H300 */
+  --h300-text-font-family: Poppins;
+  --h300-text-font-size: 13px;
+  --h300-text-font-style: normal;
+  --h300-text-font-weight: 400;
+  --h300-text-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* font-feature-settings: 'clig' off, 'liga' off;*/
+  /* Light/Heading/H200 */
+  --h200-font-family: Poppins;
+  --h200-font-size: 12px;
+  --h200-font-style: normal;
+  --h200-font-weight: 500;
+  --h200-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H200 Strong */
+  --h200-strong-font-family: Poppins;
+  --h200-strong-font-size: 12px;
+  --h200-strong-font-style: normal;
+  --h200-strong-font-weight: 600;
+  --h200-strong-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H200 Condense */
+  --h200-condense-font-family: Calibri;
+  --h200-condense-font-size: 12px;
+  --h200-condense-font-style: normal;
+  --h200-condense-font-weight: 700;
+  --h200-condense-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H200 Text */
+  --h200-text-font-family: Poppins;
+  --h200-text-font-size: 12px;
+  --h200-text-font-style: normal;
+  --h200-text-font-weight: 400;
+  --h200-text-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* font-feature-settings: 'clig' off, 'liga' off;*/
+  /* Light/Heading/H100 */
+  --h100-font-family: Poppins;
+  --h100-font-size: 11px;
+  --h100-font-style: normal;
+  --h100-font-weight: 500;
+  --h100-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Heading/H100 Text */
+  --h100-text-font-family: Poppins;
+  --h100-text-font-size: 11px;
+  --h100-text-font-style: normal;
+  --h100-text-font-weight: 400;
+  --h100-text-line-height: normal;
+
+  /* --------------------------------Text-------------------------------- */
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Text/T2400 */
+  --t2400-font-family: Inter;
+  --t2400-font-size: 24px;
+  --t2400-font-style: normal;
+  --t2400-font-weight: 400;
+  --t2400-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Text/T2000 */
+  --t2000-font-family: Inter;
+  --t2000-font-size: 20px;
+  --t2000-font-style: normal;
+  --t2000-font-weight: 400;
+  --t2000-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Text/T600 */
+  --t600-font-family: Inter;
+  --t600-font-size: 16px;
+  --t600-font-style: normal;
+  --t600-font-weight: 400;
+  --t600-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Text/T600 */
+  --t600-strong-font-family: Inter;
+  --t600-strong-font-size: 16px;
+  --t600-strong-font-style: normal;
+  --t600-strong-font-weight: 400;
+  --t600-strong-line-height: normal;
+
+  /* color: var(--Light-SB-Primary, #556EE6);*/
+  /* Light/Text/T600 Strong2 */
+  --t600-strong2-font-family: Inter;
+  --t600-strong2-font-size: 16px;
+  --t600-strong2-font-style: normal;
+  --t600-strong2-font-weight: 400;
+  --t600-strong2-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* font-feature-settings: 'clig' off, 'liga' off;*/
+  /* Light/Text/T500 */
+  --t500-font-family: 'Inter';
+  --t500-font-style: normal;
+  --t500-font-weight: 400;
+  --t500-font-size: 15px;
+  --t500-line-height: 18px;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Text/T400 */
+  --t400-font-family: 'Inter';
+  --t400-font-style: normal;
+  --t400-font-weight: 400;
+  --t400-font-size: 14px;
+  --t400-line-height: 17px;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Text/T400 Strong */
+  --t400-strong-font-family: Inter;
+  --t400-strong-font-size: 14px;
+  --t400-strong-font-style: normal;
+  --t400-strong-font-weight: 500;
+  --t400-strong-line-height: normal;
+
+  /* color: var(--Light-SB-Primary, #556EE6);*/
+  /* Light/Text/T400 Strong2 */
+  --t400-strong2-font-family: Inter;
+  --t400-strong2-font-size: 14px;
+  --t400-strong2-font-style: normal;
+  --t400-strong2-font-weight: 700;
+  --t400-strong2-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Text/T300 */
+  --t300-font-family: Inter;
+  --t300-font-size: 13px;
+  --t300-font-style: normal;
+  --t300-font-weight: 400;
+  --t300-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Text/T300 Strong */
+  --t300-strong-font-family: Inter;
+  --t300-strong-font-size: 13px;
+  --t300-strong-font-style: normal;
+  --t300-strong-font-weight: 500;
+  --t300-strong-line-height: normal;
+
+  /* color: var(--Light-SB-Primary, #556EE6);*/
+  /* font-feature-settings: 'clig' off, 'liga' off;*/
+  /* Light/Text/T300 Strong2 */
+  --t300-strong2-font-family: Inter;
+  --t300-strong2-font-size: 13px;
+  --t300-strong2-font-style: normal;
+  --t300-strong2-font-weight: 700;
+  --t300-strong2-line-height: normal;
+
+  /*color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Text/T200 */
+  --t200-font-family: Inter;
+  --t200-font-size: 12px;
+  --t200-font-style: normal;
+  --t200-font-weight: 400;
+  --t200-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* font-feature-settings: 'clig' off, 'liga' off;*/
+  /* Light/Text/T200 Condense */
+  --t200-condense-font-family: Calibri;
+  --t200-condense-font-size: 12px;
+  --t200-condense-font-style: normal;
+  --t200-condense-font-weight: 400;
+  --t200-condense-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Text/T150 */
+  --t150-font-family: Inter;
+  --t150-font-size: 11.5px;
+  --t150-font-style: normal;
+  --t150-font-weight: 400;
+  --t150-line-height: normal;
+
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Text/T100 */
+  --t100-font-family: Inter;
+  --t100-font-size: 11px;
+  --t100-font-style: normal;
+  --t100-font-weight: 400;
+  --t100-line-height: normal;
+
+  /* --------------------------------Number-------------------------------- */
+  /* color: var(--Light-Body-Body-color, #495057);*/
+  /* Light/Number/N100 */
+  --n100-font-family: Calibri;
+  --n100-font-size: 12px;
+  --n100-font-style: normal;
+  --n100-font-weight: 700;
+  --n100-line-height: normal;
+}
+
+/*.menu-item-indicator {
+    position: absolute;
+    height: 20px;
+    float: start;
+    border-left: 4px solid var(--menu-item-indicator-color) !important;
+    margin-left: -20px;
+}*/
+
+.ztn-page-title {
+  font-family: var(--h600-strong-font-family) !important;
+  font-style: var(--h600-strong-font-style) !important;
+  font-weight: var(--h600-strong-font-weight) !important;
+  font-size: var(--h600-strong-font-size) !important;
+  line-height: var(--h600-strong-line-height) !important;
+}
+
+.ztn-page-text {
+  font-family: var(--t500-font-family) !important;
+  font-style: var(--t500-font-style) !important;
+  font-weight: var(--t500-font-weight) !important;
+  font-size: var(--t500-font-size) !important;
+  line-height: var(--t500-line-height) !important;
+}

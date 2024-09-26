@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Electron-Tray-Window Example</title>
+  </head>
+  <style>
+    body {
+      overflow: hidden;
+    }
+
+    #container {
+      background-color: #ffffff;
+      height: 100%;
+      border-radius: 5px;
+      user-select: none;
+    }
+
+    #title {
+      background-color: #f2f2f2;
+      height: 32px;
+      font-family: Poppins, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      padding: 8px 0 0 8px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    ol {
+      list-style-type: none;
+    }
+
+    .menu-text {
+      font-family: Inter, sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      height: 24px;
+      padding: 8px 0 0 16px;
+      border-radius: 5px;
+    }
+
+    .menu-text:hover {
+      background-color: #cccccc;
+      cursor: pointer;
+    }
+
+    #ray {
+      padding: 8px 0 0 24px;
+    }
+  </style>
+  <script type="text/javascript">
+    const { ipcRenderer } = require('electron')
+
+    function quitApp() {
+      ipcRenderer.send('quit-app')
+    }
+
+    function openInfo() {
+      ipcRenderer.send('open-macdonald')
+    }
+
+    function closeInfo() {
+      ipcRenderer.send('close-macdonald')
+    }
+  </script>
+  <body>
+    <div id="container">
+      <div id="title">StrongGate Teams</div>
+      <div class="menu-text" id="ray" onmouseenter="openInfo()" onmouseleave="closeInfo()">
+        <div
+          style="
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          Macdonald.co.uk
+          <div style="display: flex; align-items: center">
+            <img src="../svg/bind.svg" alt="" />
+            <input type="checkbox" style="width: 16px; height: 16px" />
+            <img src="../svg/strong-gate-checked.svg" alt="" />
+            <img src="../svg/right-arrow.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="menu-text" id="ray">
+        <div
+          style="
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          "
+        >
+          Uncle Ray
+          <div style="position: absolute; right: 10%">
+            <input type="checkbox" style="width: 16px; height: 16px; margin: 0" />
+            <img src="../svg/strong-gate.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="menu-text">Login to Join Team</div>
+      <div class="menu-text">Logout all Teams</div>
+      <div class="menu-text">Request to add user</div>
+      <div class="menu-text">Open Team Site</div>
+      <div class="menu-text">Local Preference</div>
+      <div class="menu-text">Geo-proxy Local</div>
+      <div class="menu-text">Logs</div>
+      <div class="menu-text">About StrongGate</div>
+      <div class="menu-text" onclick="quitApp()">Exit</div>
+    </div>
+  </body>
+</html>

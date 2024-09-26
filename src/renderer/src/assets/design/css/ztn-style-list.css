@@ -1,0 +1,330 @@
+/* ------------------------- Header -------------------------*/
+/*All fonts should be accompanied by the corresponding color: var(....);*/
+
+.ztn-page-h3600 {
+  font-family: var(--h3600-font-family) !important;
+  font-style: var(--h3600-font-style) !important;
+  font-weight: var(--h3600-font-weight) !important;
+  font-size: var(--h3600-font-size) !important;
+  line-height: var(--h3600-line-height) !important;
+}
+
+.ztn-page-h2400 {
+  font-family: var(--h2400-font-family) !important;
+  font-style: var(--h2400-font-style) !important;
+  font-weight: var(--h2400-font-weight) !important;
+  font-size: var(--h2400-font-size) !important;
+  line-height: var(--h2400-line-height) !important;
+}
+
+.ztn-page-h800 {
+  font-family: var(--h800-font-family) !important;
+  font-style: var(--h800-font-style) !important;
+  font-weight: var(--h800-font-weight) !important;
+  font-size: var(--h800-font-size) !important;
+  line-height: var(--h800-line-height) !important;
+}
+
+.ztn-page-h800-strong {
+  font-family: var(--h800-strong-font-family) !important;
+  font-style: var(--h800-strong-font-style) !important;
+  font-weight: var(--h800-strong-font-weight) !important;
+  font-size: var(--h800-strong-font-size) !important;
+  line-height: var(--h800-strong-line-height) !important;
+}
+
+.ztn-page-h600 {
+  font-family: var(--h600-font-family) !important;
+  font-style: var(--h600-font-style) !important;
+  font-weight: var(--h600-font-weight) !important;
+  font-size: var(--h600-font-size) !important;
+  line-height: var(--h600-line-height) !important;
+}
+
+.ztn-page-h600-strong {
+  font-family: var(--h600-strong-font-family) !important;
+  font-style: var(--h600-strong-font-style) !important;
+  font-weight: var(--h600-strong-font-weight) !important;
+  font-size: var(--h600-strong-font-size) !important;
+  line-height: var(--h600-strong-line-height) !important;
+}
+
+.ztn-page-h500 {
+  font-family: var(--h500-font-family) !important;
+  font-style: var(--h500-font-style) !important;
+  font-weight: var(--h500-font-weight) !important;
+  font-size: var(--h500-font-size) !important;
+  line-height: var(--h500-line-height) !important;
+}
+
+.ztn-page-h500-strong {
+  font-family: var(--h500-strong-font-family) !important;
+  font-style: var(--h500-strong-font-style) !important;
+  font-weight: var(--h500-strong-font-weight) !important;
+  font-size: var(--h500-strong-font-size) !important;
+  line-height: var(--h500-strong-line-height) !important;
+}
+
+.ztn-page-h500-text {
+  font-family: var(--h500-text-font-family) !important;
+  font-style: var(--h500-text-font-style) !important;
+  font-weight: var(--h500-text-font-weight) !important;
+  font-size: var(--h500-text-font-size) !important;
+  line-height: var(--h500-text-line-height) !important;
+}
+
+.ztn-page-h400 {
+  font-family: var(--h400-font-family) !important;
+  font-style: var(--h400-font-style) !important;
+  font-weight: var(--h400-font-weight) !important;
+  font-size: var(--h400-font-size) !important;
+  line-height: var(--h400-line-height) !important;
+}
+
+.ztn-page-h400-strong {
+  font-family: var(--h400-strong-font-family) !important;
+  font-style: var(--h400-strong-font-style) !important;
+  font-weight: var(--h400-strong-font-weight) !important;
+  font-size: var(--h400-strong-font-size) !important;
+  line-height: var(--h400-strong-line-height) !important;
+}
+
+.ztn-page-h400-condense {
+  font-family: var(--h400-condense-font-family) !important;
+  font-style: var(--h400-condense-font-style) !important;
+  font-weight: var(--h400-condense-font-weight) !important;
+  font-size: var(--h400-condense-font-size) !important;
+  line-height: var(--h400-condense-line-height) !important;
+}
+
+.ztn-page-h400-text {
+  font-family: var(--h400-text-font-family) !important;
+  font-style: var(--h400-text-font-style) !important;
+  font-weight: var(--h400-text-font-weight) !important;
+  font-size: var(--h400-text-font-size) !important;
+  line-height: var(--h400-text-line-height) !important;
+}
+
+.ztn-page-h300 {
+  font-family: var(--h300-font-family) !important;
+  font-style: var(--h300-font-style) !important;
+  font-weight: var(--h300-font-weight) !important;
+  font-size: var(--h300-font-size) !important;
+  line-height: var(--h300-line-height) !important;
+}
+
+.ztn-page-h300-strong {
+  font-family: var(--h300-strong-font-family) !important;
+  font-style: var(--h300-strong-font-style) !important;
+  font-weight: var(--h300-strong-font-weight) !important;
+  font-size: var(--h300-strong-font-size) !important;
+  line-height: var(--h300-strong-line-height) !important;
+}
+
+.ztn-page-h300-strong2 {
+  font-family: var(--h300-strong2-font-family) !important;
+  font-style: var(--h300-strong2-font-style) !important;
+  font-weight: var(--h300-strong2-font-weight) !important;
+  font-size: var(--h300-strong2-font-size) !important;
+  line-height: var(--h300-strong2-line-height) !important;
+}
+
+.ztn-page-h300-text {
+  font-family: var(--h300-text-font-family) !important;
+  font-style: var(--h300-text-font-style) !important;
+  font-weight: var(--h300-text-font-weight) !important;
+  font-size: var(--h300-text-font-size) !important;
+  line-height: var(--h300-text-line-height) !important;
+}
+
+.ztn-page-h200 {
+  font-family: var(--h200-font-family) !important;
+  font-style: var(--h200-font-style) !important;
+  font-weight: var(--h200-font-weight) !important;
+  font-size: var(--h200-font-size) !important;
+  line-height: var(--h200-line-height) !important;
+}
+
+.ztn-page-h200-strong {
+  font-family: var(--h200-strong-font-family) !important;
+  font-style: var(--h200-strong-font-style) !important;
+  font-weight: var(--h200-strong-font-weight) !important;
+  font-size: var(--h200-strong-font-size) !important;
+  line-height: var(--h200-strong-line-height) !important;
+}
+
+.ztn-page-h200-condense {
+  font-family: var(--h200-condense-font-family) !important;
+  font-style: var(--h200-condense-font-style) !important;
+  font-weight: var(--h200-condense-font-weight) !important;
+  font-size: var(--h200-condense-font-size) !important;
+  line-height: var(--h200-condense-line-height) !important;
+}
+
+.ztn-page-h200-text {
+  font-family: var(--h200-text-font-family) !important;
+  font-style: var(--h200-text-font-style) !important;
+  font-weight: var(--h200-text-font-weight) !important;
+  font-size: var(--h200-text-font-size) !important;
+  line-height: var(--h200-text-line-height) !important;
+}
+
+.ztn-page-h100 {
+  font-family: var(--h100-font-family) !important;
+  font-style: var(--h100-font-style) !important;
+  font-weight: var(--h100-font-weight) !important;
+  font-size: var(--h100-font-size) !important;
+  line-height: var(--h100-line-height) !important;
+}
+
+.ztn-page-h100-text {
+  font-family: var(--h100-text-font-family) !important;
+  font-style: var(--h100-text-font-style) !important;
+  font-weight: var(--h100-text-font-weight) !important;
+  font-size: var(--h100-text-font-size) !important;
+  line-height: var(--h100-text-line-height) !important;
+}
+
+/* ------------------------- Text -------------------------*/
+.ztn-page-t2400 {
+  font-family: var(--t2400-font-family) !important;
+  font-style: var(--t2400-font-style) !important;
+  font-weight: var(--t2400-font-weight) !important;
+  font-size: var(--t2400-font-size) !important;
+  line-height: var(--t2400-line-height) !important;
+}
+
+.ztn-page-t2000 {
+  font-family: var(--t2000-font-family) !important;
+  font-style: var(--t2000-font-style) !important;
+  font-weight: var(--t2000-font-weight) !important;
+  font-size: var(--t2000-font-size) !important;
+  line-height: var(--t2000-line-height) !important;
+}
+
+.ztn-page-t600 {
+  font-family: var(--t600-font-family) !important;
+  font-style: var(--t600-font-style) !important;
+  font-weight: var(--t600-font-weight) !important;
+  font-size: var(--t600-font-size) !important;
+  line-height: var(--t600-line-height) !important;
+}
+
+.ztn-page-t600-strong {
+  font-family: var(--t600-strong-font-family) !important;
+  font-style: var(--t600-strong-font-style) !important;
+  font-weight: var(--t600-strong-font-weight) !important;
+  font-size: var(--t600-strong-font-size) !important;
+  line-height: var(--t600-strong-line-height) !important;
+}
+
+.ztn-page-t600-strong2 {
+  font-family: var(--t600-strong2-font-family) !important;
+  font-style: var(--t600-strong2-font-style) !important;
+  font-weight: var(--t600-strong2-font-weight) !important;
+  font-size: var(--t600-strong2-font-size) !important;
+  line-height: var(--t600-strong2-line-height) !important;
+}
+
+.ztn-page-t500 {
+  font-family: var(--t500-font-family) !important;
+  font-style: var(--t500-font-style) !important;
+  font-weight: var(--t500-font-weight) !important;
+  font-size: var(--t500-font-size) !important;
+  line-height: var(--t500-line-height) !important;
+}
+
+.ztn-page-t400 {
+  font-family: var(--t400-font-family) !important;
+  font-style: var(--t400-font-style) !important;
+  font-weight: var(--t400-font-weight) !important;
+  font-size: var(--t400-font-size) !important;
+  line-height: var(--t400-line-height) !important;
+}
+
+.ztn-page-t400-strong {
+  font-family: var(--t400-strong-font-family) !important;
+  font-style: var(--t400-strong-font-style) !important;
+  font-weight: var(--t400-strong-font-weight) !important;
+  font-size: var(--t400-strong-font-size) !important;
+  line-height: var(--t400-strong-line-height) !important;
+}
+
+.ztn-page-t400-strong2 {
+  font-family: var(--t400-strong2-font-family) !important;
+  font-style: var(--t400-strong2-font-style) !important;
+  font-weight: var(--t400-strong2-font-weight) !important;
+  font-size: var(--t400-strong2-font-size) !important;
+  line-height: var(--t400-strong2-line-height) !important;
+}
+
+.ztn-page-t300 {
+  font-family: var(--t300-font-family) !important;
+  font-style: var(--t300-font-style) !important;
+  font-weight: var(--t300-font-weight) !important;
+  font-size: var(--t300-font-size) !important;
+  line-height: var(--t300-line-height) !important;
+}
+
+.ztn-page-t300-strong {
+  font-family: var(--t300-strong-font-family) !important;
+  font-style: var(--t300-strong-font-style) !important;
+  font-weight: var(--t300-strong-font-weight) !important;
+  font-size: var(--t300-strong-font-size) !important;
+  line-height: var(--t300-strong-line-height) !important;
+}
+
+.ztn-page-t300-strong2 {
+  font-family: var(--t300-strong2-font-family) !important;
+  font-style: var(--t300-strong2-font-style) !important;
+  font-weight: var(--t300-strong2-font-weight) !important;
+  font-size: var(--t300-strong2-font-size) !important;
+  line-height: var(--t300-strong2-line-height) !important;
+}
+
+.ztn-page-t200 {
+  font-family: var(--t200-font-family) !important;
+  font-style: var(--t200-font-style) !important;
+  font-weight: var(--t200-font-weight) !important;
+  font-size: var(--t200-font-size) !important;
+  line-height: var(--t200-line-height) !important;
+}
+
+.ztn-page-t200-condense {
+  font-family: var(--t200-condense-font-family) !important;
+  font-style: var(--t200-condense-font-style) !important;
+  font-weight: var(--t200-condense-font-weight) !important;
+  font-size: var(--t200-condense-font-size) !important;
+  line-height: var(--t200-condense-line-height) !important;
+}
+
+.ztn-page-t150 {
+  font-family: var(--t150-font-family) !important;
+  font-style: var(--t150-font-style) !important;
+  font-weight: var(--t150-font-weight) !important;
+  font-size: var(--t150-font-size) !important;
+  line-height: var(--t150-line-height) !important;
+  /*color: var(--body-color-1) !important;*/
+}
+
+.ztn-page-t100 {
+  font-family: var(--t100-font-family) !important;
+  font-style: var(--t100-font-style) !important;
+  font-weight: var(--t100-font-weight) !important;
+  font-size: var(--t100-font-size) !important;
+  line-height: var(--t100-line-height) !important;
+}
+
+/* ------------------------- Number -------------------------*/
+.ztn-page-n100 {
+  font-family: var(--n100-font-family) !important;
+  font-style: var(--n100-font-style) !important;
+  font-weight: var(--n100-font-weight) !important;
+  font-size: var(--n100-font-size) !important;
+  line-height: var(--n100-line-height) !important;
+}
+
+
+img {
+  user-select: none !important;
+}
